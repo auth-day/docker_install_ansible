@@ -4,7 +4,7 @@
   yum:
     name: epel-release
     state: latest
-  - name: add repo
+- name: add repo
   yum_repository:
     name: docker repo
     description: adding docker repo
